@@ -1,0 +1,10 @@
+extends layout
+
+block content
+        h1 Borrar Animal Fantastico
+        label(for="Nombre") Nombre
+        input#username(type="text", name="nombre" , required, placeholder="nombre")
+        br
+        input#submit_btn(type="submit" value="Borrar")
+        script(src='/javascripts/index.js')
+        include botones.pug

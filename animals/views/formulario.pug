@@ -1,0 +1,21 @@
+div#formulario
+    hi Agregar Animal Fantastico
+    p Introdusca datos
+    form(method ="post")
+        label(for="Nombre") Nombre
+        input#username(type="text", name="nombre" , required, placeholder="nombre")
+        br
+        label(for="user") Clasificacion
+        input#first_name(type="text", name="clasificacion" , required, placeholder="clasificacion")
+        br
+        label(for="user") Apariencia
+        input#last_name(type="text", name="last_name" , required, placeholder="asdasd")
+        br
+        label(for="user") Poder especial
+        input#email(type="text", name="poder" , required, placeholder="poder especial")
+        br
+        label(for="user") Ubicacion
+        input#password(type="text" name="ubicacion", required, placeholder="ubicacion")
+        br
+        input(type="submit" value="Agregar")
+    include botones.pug
